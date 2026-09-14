@@ -1,4 +1,4 @@
-# Hiver SDE Intern Take-Home Assignment
+﻿# Hiver SDE Intern Take-Home Assignment
 ## AI Customer Support Agent — SpotifyCares
 
 ---
@@ -313,5 +313,3 @@ hiver/
     ├── failure_analysis.md    # Top 5 failure modes with real examples
     └── decision_log.md        # 15 non-obvious design decisions
 ```
-#   C h a t I n t e l l i  
- 
