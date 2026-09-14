@@ -1,0 +1,14 @@
+{
+  "majority_baseline": {
+    "intent_accuracy": 0.63,
+    "intent_macro_f1": 0.12883435582822086,
+    "escalation_f1": 0.8919667590027701,
+    "false_auto_handle_rate": 0.0
+  },
+  "tfidf_baseline": {
+    "intent_accuracy": 0.85,
+    "intent_macro_f1": 0.7658564384110079,
+    "escalation_f1": 0.9375,
+    "false_auto_handle_rate": 0.06832298136645963
+  }
+}

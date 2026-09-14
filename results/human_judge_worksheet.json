@@ -1,0 +1,212 @@
+[
+  {
+    "id": 2919409,
+    "customer_message": "I just updated my iphone 7+ to IOS 11.1 and now the only music on Spotify I\u2019m able to listen to is what I have downloaded. I get an error and every tab of the app. I\u2019ve tried reinstalling and restarting the phone \ud83e\udd37\ud83c\udffc\u200d\u2642\ufe0f",
+    "generated_reply": "",
+    "action": "ESCALATE",
+    "reference_reply": "@808049 Hey Aaron! Everything should be running smoothly now. Let us know if this is still happening /GS",
+    "llm_scores": {
+      "relevance": 5,
+      "groundedness": 3,
+      "helpfulness": 3,
+      "tone": 4,
+      "no_hallucination": 3
+    },
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 3,
+      "helpfulness": 2,
+      "tone": 5,
+      "no_hallucination": 3
+    }
+  },
+  {
+    "id": 890181,
+    "customer_message": "why has The Game - Blood Moon: Year Of The Wolf album been removed? And any chance we can get Kano - 140 Grime St added? Thanks \ud83d\ude01",
+    "generated_reply": "@434099 Hey! Fingers crossed we'll be able to have it soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa /DF",
+    "action": "AUTO_HANDLE",
+    "reference_reply": "@331332 Hey Peter! That doesn't sound good. Could you send us a DM with your account's email address? We'll take a look backstage /QI https://t.co/ldFdZRiNAt",
+    "llm_scores": {
+      "relevance": 3,
+      "groundedness": 4,
+      "helpfulness": 4,
+      "tone": 5,
+      "no_hallucination": 3
+    },
+    "human_scores": {
+      "relevance": 3,
+      "groundedness": 3,
+      "helpfulness": 3,
+      "tone": 5,
+      "no_hallucination": 2
+    }
+  },
+  {
+    "id": 2364816,
+    "customer_message": "Why isn't Guinevere by Eli Young Band on Spotify anymore??? That's one of my favs!",
+    "generated_reply": "@SpotifyCares Hey! Some licensing agreements can affect music availability. There's more info about Spotify content here: https://t.co/YlV1IAFV3I /NY",
+    "action": "AUTO_HANDLE",
+    "reference_reply": "@682734 Hey! Sometimes content gets removed due to licensing changes. Hopefully we'll have it available again soon. https://t.co/0i8GpimuDa /AR",
+    "llm_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "helpfulness": 4,
+      "tone": 4,
+      "no_hallucination": 5
+    },
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "helpfulness": 3,
+      "tone": 4,
+      "no_hallucination": 5
+    }
+  },
+  {
+    "id": 1154181,
+    "customer_message": "hey wassup guys can you please approve my Spotify for artist account I\u2019m really excited to use the app",
+    "generated_reply": "",
+    "action": "ESCALATE",
+    "reference_reply": "@391546 Hey there! This sounds like something for our Artist Services friends. You can contact them here: https://t.co/3j9HWSEG0s /KP",
+    "llm_scores": {
+      "relevance": 5,
+      "groundedness": 3,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 4
+    },
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 3,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 4
+    }
+  },
+  {
+    "id": 1908035,
+    "customer_message": "chris brown ruins every new music friday!",
+    "generated_reply": "We hear you and appreciate the feedback about New Music Friday. You can share your thoughts and vote on ideas like this here: https://t.co/rqyzoF2SLd /LM",
+    "action": "AUTO_HANDLE",
+    "reference_reply": "@568406 Hey! We don't have any specific info on this right now, but we'd suggest supporting the idea by voting here: https://t.co/hlXvRg5Zog /JE",
+    "llm_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "helpfulness": 3,
+      "tone": 4,
+      "no_hallucination": 3
+    },
+    "human_scores": {
+      "relevance": 3,
+      "groundedness": 4,
+      "helpfulness": 3,
+      "tone": 3,
+      "no_hallucination": 3
+    }
+  },
+  {
+    "id": 2951516,
+    "customer_message": ". helped me to get a quick solution to my problem as always",
+    "generated_reply": "@686041 No worries! If you ever need anything else, just shout and we'll come running \ud83c\udfc3 /TR",
+    "action": "AUTO_HANDLE",
+    "reference_reply": "@463556 Thanks for the feedback! It's music to our ears. We're always... https://t.co/zOXI69QSqg \ud83c\udfb6 /CO",
+    "llm_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 4
+    },
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 5
+    }
+  },
+  {
+    "id": 1658858,
+    "customer_message": "this album title should be \"Trapper,\" not \"Tapper.\"\n\n\n\ncc:",
+    "generated_reply": "",
+    "action": "ESCALATE",
+    "reference_reply": "@506113 Hey there! We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 \ud83d\ude42 /AR",
+    "llm_scores": {
+      "relevance": 3,
+      "groundedness": 4,
+      "helpfulness": 4,
+      "tone": 4,
+      "no_hallucination": 4
+    },
+    "human_scores": {
+      "relevance": 2,
+      "groundedness": 3,
+      "helpfulness": 3,
+      "tone": 4,
+      "no_hallucination": 4
+    }
+  },
+  {
+    "id": 2038960,
+    "customer_message": "I really need  to bring back the playlist feature on the Roku app. \n\n\ud83d\udde3Spotify really isn\u2019t the same without access to it\u2019s playlists.",
+    "generated_reply": "",
+    "action": "ESCALATE",
+    "reference_reply": "@602884 Hey! We have some info about the Spotify app on Roku here: https://t.co/titMn0j3Im. Give us a shout if there's anything else /RC",
+    "llm_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 3
+    },
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "helpfulness": 5,
+      "tone": 4,
+      "no_hallucination": 3
+    }
+  },
+  {
+    "id": 2246128,
+    "customer_message": "Windows 7 Professional OS, Chrome, Explorer, and Firefox all had the same result.  No error message, the browser just goes to the update page and sits there waiting for the form to load.  I attached a screenshot...",
+    "generated_reply": "",
+    "action": "ESCALATE",
+    "reference_reply": "@654628 Thanks for the info. Can you try clearing your browser's cache/cookies? Could you also try using an incognito window? Keep us posted /LM",
+    "llm_scores": {
+      "relevance": 3,
+      "groundedness": 5,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 5
+    },
+    "human_scores": {
+      "relevance": 2,
+      "groundedness": 5,
+      "helpfulness": 5,
+      "tone": 5,
+      "no_hallucination": 4
+    }
+  },
+  {
+    "id": 901655,
+    "customer_message": "When your  app deletes 2 or 3 years worth of your saved artists, songs and playlists from all folders-.-Looks like Im unsubscribing\ud83d\ude11",
+    "generated_reply": "",
+    "action": "ESCALATE",
+    "reference_reply": "@334052 Hey, help's here! Could you DM us your username and email address? We'll see what we can suggest /JQ https://t.co/ldFdZRiNAt",
+    "llm_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "helpfulness": 4,
+      "tone": 4,
+      "no_hallucination": 4
+    },
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "helpfulness": 4,
+      "tone": 4,
+      "no_hallucination": 3
+    }
+  }
+]

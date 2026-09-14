@@ -1,0 +1,20 @@
+{
+  "n_evaluated": 50,
+  "intent": {
+    "accuracy": 0.84,
+    "macro_f1": 0.7426909510242844
+  },
+  "escalation": {
+    "accuracy": 0.68,
+    "precision": 0.8125,
+    "recall": 0.7222222222222222,
+    "f1": 0.7647058823529411,
+    "false_auto_handle_rate": 0.2777777777777778,
+    "false_auto_handle_count": 10,
+    "total_true_escalate": 36
+  },
+  "reply_judge": {
+    "n_scored": 18,
+    "avg_overall": 2.9555555555555557
+  }
+}

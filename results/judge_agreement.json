@@ -1,0 +1,46 @@
+{
+  "n": 10,
+  "dimensions": {
+    "relevance": {
+      "pearson_r": 0.8773464777984028,
+      "p_value": 0.0008517273243287325,
+      "mae": 0.6,
+      "llm_mean": 4.2,
+      "human_mean": 3.6,
+      "agreement_within_1": 1.0
+    },
+    "groundedness": {
+      "pearson_r": 0.81693293790958,
+      "p_value": 0.003914533027247973,
+      "mae": 0.4,
+      "llm_mean": 4.3,
+      "human_mean": 3.9,
+      "agreement_within_1": 1.0
+    },
+    "helpfulness": {
+      "pearson_r": 0.9181395839231106,
+      "p_value": 0.00017781167782084383,
+      "mae": 0.4,
+      "llm_mean": 4.2,
+      "human_mean": 3.8,
+      "agreement_within_1": 1.0
+    },
+    "tone": {
+      "pearson_r": 0.6030226891555273,
+      "p_value": 0.06496937365680572,
+      "mae": 0.3,
+      "llm_mean": 4.5,
+      "human_mean": 4.4,
+      "agreement_within_1": 1.0
+    },
+    "no_hallucination": {
+      "pearson_r": 0.7581753965757455,
+      "p_value": 0.011042307829046132,
+      "mae": 0.4,
+      "llm_mean": 3.8,
+      "human_mean": 3.6,
+      "agreement_within_1": 1.0
+    }
+  },
+  "overall_pearson_r": 0.8181626490115382
+}

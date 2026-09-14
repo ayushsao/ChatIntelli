@@ -1,0 +1,502 @@
+[
+  {
+    "id": 2919409,
+    "customer_message": "I just updated my iphone 7+ to IOS 11.1 and now the only music on Spotify I\u2019m able to listen to is what I have downloaded. I get an error and every tab of the app. I\u2019ve tried reinstalling and restarting the phone \ud83e\udd37\ud83c\udffc\u200d\u2642\ufe0f",
+    "true_intent": "feature_request",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2961989,
+    "customer_message": "I can't log into Spotify via my Facebook account - \"You don't have an account set up with these Facebook credentials.   Sign up for one now.\"  I try to sign up for one, but my email is already used.  I need to have my email and/or Facebook account removed.",
+    "true_intent": "account_login",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 622872,
+    "customer_message": "Hey  I want to create a playlist selected from all the songs I have ever clicked \"Add to Queue\" - Can we access personal usage data, and would it include that data?  Thanks!",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 25409,
+    "customer_message": "I need this!!!!!! But... How?",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1316885,
+    "customer_message": "Yes it only happens on 4G. I have no idea what version I'm using",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 104109,
+    "customer_message": "Nope. Still the same",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2366376,
+    "customer_message": "pls add Earned it from Chief Keef",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 890181,
+    "customer_message": "why has The Game - Blood Moon: Year Of The Wolf album been removed? And any chance we can get Kano - 140 Grime St added? Thanks \ud83d\ude01",
+    "true_intent": "content_missing",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2022710,
+    "customer_message": "Could you please direct me to a resource to reset. This is an account based in Turkey",
+    "true_intent": "account_login",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 568953,
+    "customer_message": "Are you fricking serious,",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2364816,
+    "customer_message": "Why isn't Guinevere by Eli Young Band on Spotify anymore??? That's one of my favs!",
+    "true_intent": "feature_request",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1838776,
+    "customer_message": "yet the adress doesn't seem to be the same. Can you help me? Is there any way to change the adresses on both accounts? cheers! 2/2",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 271315,
+    "customer_message": "I don't know who the right team is, but thanks.  My hearing is not dealing at all well with this issue.",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2916664,
+    "customer_message": "get ur shit together",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2165465,
+    "customer_message": "Except if you travel a lot and leave your country of subscription for more than 15 days, you can\u2019t access your music.",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 885077,
+    "customer_message": "Is there a payment issue going on? No accounts will renew my premium",
+    "true_intent": "payment_issue",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1154181,
+    "customer_message": "hey wassup guys can you please approve my Spotify for artist account I\u2019m really excited to use the app",
+    "true_intent": "content_missing",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1908035,
+    "customer_message": "chris brown ruins every new music friday!",
+    "true_intent": "feature_request",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2951516,
+    "customer_message": ". helped me to get a quick solution to my problem as always",
+    "true_intent": "feature_request",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2626776,
+    "customer_message": "Yo   and or  do me a favor and throw Khalifa\u2019s 28 Grams on there itd be greatly appreciated",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1658858,
+    "customer_message": "this album title should be \"Trapper,\" not \"Tapper.\"\n\n\n\ncc:",
+    "true_intent": "content_missing",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2910973,
+    "customer_message": "You guys suddenly went silent. Waiting for a response in the DM :)",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1888383,
+    "customer_message": "I need help! My app isnt working. I let logged me out and when I hit the login button it doesn\u2019t do anything.",
+    "true_intent": "account_login",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 649979,
+    "customer_message": "I started with Wi-Fi, but I just checked on my phone using 4G and it has the same problem.",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1695020,
+    "customer_message": "please check DMs",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2684272,
+    "customer_message": "&lt;3 to    team. The support is so awesome! Even on this sunday",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2038960,
+    "customer_message": "I really need  to bring back the playlist feature on the Roku app. \n\n\ud83d\udde3Spotify really isn\u2019t the same without access to it\u2019s playlists.",
+    "true_intent": "feature_request",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2414535,
+    "customer_message": "How does one get in the TestFlight version?",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2153174,
+    "customer_message": "yo  /   any chance of getting The Latin Dimensions version if \"Hurts so Bad\" ? You've got the best of and that's great and all? but that track is fantastic and it means the world to me.",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1023901,
+    "customer_message": "there isn't any way to control the volume of spotify, specifically, at least on android and ios. I know that there used to be.",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2069987,
+    "customer_message": "hello, I want to transfer the ownership for my premium family account but I can't access my previous account. what to do?",
+    "true_intent": "payment_issue",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 118879,
+    "customer_message": "why was I charged 129 pesos in my prepaid mobile account instead of just 9pesos for 3months Premium Trial?",
+    "true_intent": "payment_issue",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2246128,
+    "customer_message": "Windows 7 Professional OS, Chrome, Explorer, and Firefox all had the same result.  No error message, the browser just goes to the update page and sits there waiting for the form to load.  I attached a screenshot...",
+    "true_intent": "feature_request",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 901655,
+    "customer_message": "When your  app deletes 2 or 3 years worth of your saved artists, songs and playlists from all folders-.-Looks like Im unsubscribing\ud83d\ude11",
+    "true_intent": "content_missing",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 599480,
+    "customer_message": "hey  you gonna release my most listened songs for 2017 soon? cause I gotta know if I was more emo than last year",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2404016,
+    "customer_message": "This is all it does and IOS 11.1.1 and software 8.4.27.895 never had a issue till I got the iPhone X",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 820761,
+    "customer_message": "how\u2019s the library look in the psychobilly section? i.e. Mad Sin, The Quakes, The Meteors...",
+    "true_intent": "payment_issue",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 907656,
+    "customer_message": "here you go",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 29618,
+    "customer_message": "Hi I am having problems, please see my DM. Thank you!",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1107510,
+    "customer_message": "hey guys can you increase the downloaded limit from 3333 to something actually useful",
+    "true_intent": "app_bug",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1783957,
+    "customer_message": "spotify on my laptop is stuck on an ad so i cant use it rip",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 310017,
+    "customer_message": "Love the Time Capsule, but it'd be nice if I could sort it by artist to find songs easier.",
+    "true_intent": "content_missing",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 2954690,
+    "customer_message": "Finally found it. There was a comment box over the response area that needed to be closed to see where to respond.  Message sent. Thanks!",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 554134,
+    "customer_message": "SpotifyCares?! Clearly do not care. Poor service for a Premium customer. Other streaming services are available!!",
+    "true_intent": "payment_issue",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 25404,
+    "customer_message": "9 pesos only? How how \ud83d\ude0d\ud83d\ude0d",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1915768,
+    "customer_message": "hi, I was removed from our family plan even though I reside at the same address as the initiator. We're paying. Please fix.",
+    "true_intent": "content_missing",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1825624,
+    "customer_message": "i need help logging into my spotify, i pay for premium, but its telling me i dont exist",
+    "true_intent": "payment_issue",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 795079,
+    "customer_message": "Oh  pls come to India",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 239819,
+    "customer_message": "It works but doesn\u2019t seem to be integrated. No lock screen controls, volume doesn\u2019t affect the app unless used within the app etc",
+    "true_intent": "other",
+    "pred_intent": "app_bug",
+    "true_action": "ESCALATE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  },
+  {
+    "id": 1752924,
+    "customer_message": "None the only thing that happens is any music stops playing",
+    "true_intent": "app_bug",
+    "pred_intent": "app_bug",
+    "true_action": "AUTO_HANDLE",
+    "pred_action": "ESCALATE",
+    "generated_reply": "",
+    "evaluation": null
+  }
+]

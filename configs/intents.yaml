@@ -1,0 +1,120 @@
+# Intent Taxonomy for SpotifyCares Support Agent
+# Derived from exploratory analysis of ~5,000 SpotifyCares customer messages.
+# Target: 6 mutually-exclusive intents covering ~95% of real customer volume.
+
+intents:
+
+  payment_issue:
+    name: "Payment & Subscription Issue"
+    description: >
+      Customer is experiencing a billing problem, unexpected charge, failed payment,
+      subscription renewal issue, refund request, or wants to cancel/downgrade premium.
+    inclusion_criteria:
+      - Mentions of charges, invoices, billing, credit/debit card
+      - Premium subscription not activating or renewing
+      - Double charges or incorrect amounts
+      - Refund requests
+      - Cancellation of premium or family plan billing questions
+    exclusion_criteria:
+      - Cannot log in to account (→ account_login)
+      - Premium features not working after successful login (→ app_bug)
+    examples:
+      - "You charged me twice this month!"
+      - "How do I cancel my premium subscription?"
+      - "I want a refund, I was billed but can't use the service."
+      - "My payment is failing even though my card is valid."
+
+  account_login:
+    name: "Account & Login Problem"
+    description: >
+      Customer cannot access their Spotify account, forgot password, was locked out,
+      suspects their account was hacked, or needs to change account credentials.
+    inclusion_criteria:
+      - Cannot log in, locked out, "forgot password"
+      - Account hacked, email changed without consent
+      - "Reset link not working", "can't access account"
+      - Account merged or connected incorrectly to Facebook/Google
+    exclusion_criteria:
+      - App crashing on launch (→ app_bug)
+      - Premium subscription billing questions (→ payment_issue)
+    examples:
+      - "My account was hacked and the email was changed."
+      - "The password reset link doesn't work."
+      - "I can't log into Spotify via my Facebook account."
+      - "I'm locked out of my account and can't get a verification email."
+
+  app_bug:
+    name: "App Bug or Crash"
+    description: >
+      The Spotify app is crashing, freezing, skipping songs, failing to load,
+      offline sync is broken, or any reproducible technical malfunction in the app itself.
+    inclusion_criteria:
+      - App freezes, crashes, won't open or load
+      - Songs randomly pause, skip, or stop mid-playback
+      - Offline/downloaded songs disappear or won't sync
+      - App-level UI broken (blank screens, missing UI elements)
+      - Specific OS/device/version triggered bug
+    exclusion_criteria:
+      - User dislikes how a feature WORKS but it works as designed (→ feature_request)
+      - Content not available on platform (→ content_missing)
+    examples:
+      - "The app crashes every time I open offline mode."
+      - "My songs pause randomly on iOS 11."
+      - "Downloaded songs disappeared after the update."
+      - "The app won't load on my Android 12 device."
+
+  content_missing:
+    name: "Content Missing or Removed"
+    description: >
+      A specific song, album, artist, or podcast is missing, greyed out, unavailable,
+      or was removed from the platform. Also covers metadata errors (wrong title, wrong artist).
+    inclusion_criteria:
+      - Specific song or album is greyed out or unavailable
+      - Artist catalogue removed from the platform
+      - Podcast episode missing or deleted
+      - Wrong title, wrong album art, wrong metadata on a track
+    exclusion_criteria:
+      - App crashing (→ app_bug)
+      - Requesting Spotify to ADD new content (→ feature_request)
+    examples:
+      - "Why did you remove my favorite album?"
+      - "This podcast episode is greyed out and won't play."
+      - "The album title shows as 'Tapper' but it should be 'Trapper'."
+      - "The Game's album has been removed — can you bring it back?"
+
+  feature_request:
+    name: "Feature Request & Feedback"
+    description: >
+      Customer is requesting a new feature that doesn't currently exist, or providing
+      general product feedback/suggestions about the app design, playlists, or UX.
+    inclusion_criteria:
+      - Asking for a feature that doesn't exist yet (crossfade on TV, lyrics on Xbox, etc.)
+      - Requesting UI/UX changes or improvements
+      - Asking Spotify to add new content that wasn't there before (new artists, catalogue expansion)
+      - Asking when a feature will be available
+    exclusion_criteria:
+      - Feature exists but is broken (→ app_bug)
+      - Content was present but was removed (→ content_missing)
+    examples:
+      - "Please bring back the old UI."
+      - "When will we get lyrics on TV?"
+      - "Can you add the option to sort playlists by date added?"
+      - "Please add Wiz Khalifa's mixtape — it's not on here."
+
+  other:
+    name: "Other / Low-Signal"
+    description: >
+      Message is a mid-conversation follow-up fragment, generic frustration with no
+      actionable issue, spam, junk, praise, or completely out-of-scope content.
+    inclusion_criteria:
+      - "@SpotifyCares thanks!", "you suck", single-word responses
+      - Mid-conversation fragments ("Yes, that's it", "Nope, still the same")
+      - Requests with insufficient context to classify
+      - Off-topic messages
+    exclusion_criteria:
+      - Any clear intent pattern matching the above categories
+    examples:
+      - "Thanks for the help!"
+      - "get ur shit together"
+      - "Yes it only happens on 4G."
+      - "please check DMs"

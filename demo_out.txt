@@ -1,0 +1,108 @@
+python : C:\Users\ASUS\OneDrive\Deskt
+op\Hiver\src\classifier.py:122: 
+FutureWarning: 
+At line:1 char:22
++ $env:PYTHONPATH='.'; python -c "
++                      ~~~~~~~~~~~
+    + CategoryInfo          : NotSpe 
+   cified: (C:\Users\ASUS\O...Futur  
+  eWarning: :String) [], RemoteExc   
+ eption
+    + FullyQualifiedErrorId : Native 
+   CommandError
+ 
+
+All support for the 
+`google.generativeai` package has 
+ended. It will no longer be 
+receiving 
+updates or bug fixes. Please switch 
+to the `google.genai` package as 
+soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/depr
+ecated-generative-ai-python/blob/main
+/README.md
+
+  import google.generativeai as genai
+ERROR:src.classifier:Gemini 
+classification error: 1 validation 
+error for IntentClassificationResult
+confidence
+  Field required [type=missing, 
+input_value={'intent': 'app_bug', 
+'re...p_bug intent category.'}, 
+input_type=dict]
+    For further information visit htt
+ps://errors.pydantic.dev/2.13/v/missi
+ng ? falling back to heuristic
+ERROR:src.classifier:Gemini 
+classification error: 1 validation 
+error for IntentClassificationResult
+confidence
+  Field required [type=missing, 
+input_value={'intent': 
+'payment_issue...ng and payment 
+issues.'}, input_type=dict]
+    For further information visit htt
+ps://errors.pydantic.dev/2.13/v/missi
+ng ? falling back to heuristic
+ERROR:src.generator:Gemini 
+generation error: 1 validation error 
+for ReplyResponse
+confidence
+  Field required [type=missing, 
+input_value={'action': 'ESCALATE', 
+'r...fic billing timelines']}, 
+input_type=dict]
+    For further information visit htt
+ps://errors.pydantic.dev/2.13/v/missi
+ng ? escalating by default
+ERROR:src.classifier:Gemini 
+classification error: 1 validation 
+error for IntentClassificationResult
+confidence
+  Field required [type=missing, 
+input_value={'intent': 
+'feature_reque...sed on the 
+guidelines.'}, input_type=dict]
+    For further information visit htt
+ps://errors.pydantic.dev/2.13/v/missi
+ng ? falling back to heuristic
+Traceback (most recent call last):
+  File "<string>", line 13, in 
+<module>
+    print('REPLY:', r.reply if 
+r.reply else 'Escalated to human 
+agent')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python313\Lib\encoding
+s\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(inpu
+t,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec 
+can't encode character '\U0001f4dd' 
+in position 106: character maps to 
+<undefined>
+---
+MSG: app keeps crashing on spotify help
+INTENT: app_bug
+ACTION: AUTO_HANDLE
+REPLY: Hey! Can you let us know the device, operating system, and Spotify version you're using? We'll see what we can suggest /LO
+REASON: The customer is reporting that the app keeps crashing, which matches historical support example [1] where we ask for device, OS, and Spotify version.
+---
+MSG: I was charged twice need a refund
+INTENT: payment_issue
+ACTION: ESCALATE
+REPLY: Escalated to human agent
+REASON: Generation error / Rate limit
+---
+MSG: add lyrics on desktop please
+INTENT: feature_request
+ACTION: AUTO_HANDLE
+REPLY: 
